@@ -35,7 +35,7 @@ export const App = () => {
             neutral={neutral}
             bad={bad}
             total={countTotalFeedback}
-            positivePercentage={countPositiveFeedbackPercentage()}
+            positivePercentage={countPositiveFeedbackPercentage}
           ></Statistics>
         ) : (
           <Notification message="There is no feedback" />
