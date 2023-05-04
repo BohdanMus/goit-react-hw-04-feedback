@@ -16,4 +16,8 @@ export const Btn = styled.button`
   font-weight: 500;
   font-size: 12px;
   text-transform: uppercase;
+  cursor: pointer;
+  :hover {
+    background: #239b56;
+  }
 `;
